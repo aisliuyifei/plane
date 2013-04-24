@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  FlyingPlane
+
+  Created by wupeng on 12-9-13.
+
+*/
+"Flying Plane" = "Flying Plane";
+"START GAME" = "START GAME";
+"ABOUT" = "ABOUT";
+"FONT NAME" = "Marker Felt";
+"DISTANCE" = "DISTANCE";
+"BEST" = "BEST";
+"GAME OVER" = "GAME OVER";
+"tap screen to play again" = "tap screen to play again";

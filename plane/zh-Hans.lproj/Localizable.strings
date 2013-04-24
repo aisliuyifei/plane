@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  FlyingPlane
+
+  Created by wupeng on 12-9-13.
+
+*/
+
+"Flying Plane" = "是男人就飞一万米";
+"START GAME" = "开始游戏";
+"ABOUT" = "关于";
+"FONT NAME" = "Heiti SC";
+"DISTANCE" = "得分";
+"BEST" = "最高分";
+"GAME OVER" = "游戏结束";
+"tap screen to play again" = "春哥助我，原地复活，满血满魔";

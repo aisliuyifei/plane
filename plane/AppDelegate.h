@@ -8,12 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import "cocos2d.h"
-
+//#define LiteVersion //取消注释打开admob广告
 @interface AppController : NSObject <UIApplicationDelegate, CCDirectorDelegate>
 {
 	UIWindow *window_;
 	UINavigationController *navController_;
-
+    
 	CCDirectorIOS	*director_;							// weak ref
 }
 
