@@ -120,7 +120,7 @@
 
 - (void)startGame{
     [[CCDirector sharedDirector] replaceScene:[CCTransitionFade transitionWithDuration:1.0 scene:[GameScene scene] withColor:ccBLACK]];
-#ifdef LiteVersion
+#ifdef LITEVERSION
     [[GameScene sharedGameScene] addAdMobBanner];
 #endif
 }

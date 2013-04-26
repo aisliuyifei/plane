@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "cocos2d.h"
-//#define LiteVersion //取消注释打开admob广告
+#define LITEVERSION //取消注释打开admob广告
 @interface AppController : NSObject <UIApplicationDelegate, CCDirectorDelegate>
 {
 	UIWindow *window_;

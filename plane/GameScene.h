@@ -11,9 +11,7 @@
 #import "ShipEntity.h"
 #import "BlocksCache.h"
 #import "RoofCache.h"
-#ifdef LITEVERSION
 #import "GADBannerView.h"
-#endif
 typedef enum{
     GameSceneLayerTagGame = 1,
 }GameSceneLayerTags;
@@ -31,9 +29,7 @@ typedef enum{
     CCLabelTTF *scoreLabel;
     CCLabelTTF *scoreBest;
     int score;
-#ifdef LITEVERSION
     GADBannerView *gAdBannerView;
-#endif
 }
 +(id) scene;
 +(GameScene*) sharedGameScene;
